@@ -1,0 +1,107 @@
+{
+    "emmet.includeLanguages": {
+        "twig": "html",
+        "typescript": "html",
+        "javascript": "javascriptreact",
+        "xml": "xml"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSaveMode": "modifications",
+    "php.suggest.basic": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "oneDarkPro.editorTheme": "Shadow",
+    "synthwave84.brightness": 1,
+    "emmet.syntaxProfiles": {},
+    "synthwave84.disableGlow": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "sftp.debug": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "git.enableSmartCommit": true,
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editorAssociations": {
+        "*.py": "default"
+    },
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "Consolas, monospace",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "yaml": false,
+        "python": true,
+        "php": false
+    },
+    "editor.accessibilitySupport": "off",
+    "keyboard.layout": "0000040C",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Night Owl",
+    "editor.formatOnType": true,
+    "editor.fontLigatures": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.blame.editorDecoration.enabled": true,
+    "docker.extension.enableComposeLanguageServer": false,
+    "ansible.lightspeed.suggestions.enabled": false,
+    "ansible.lightspeed.enabled": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontFamily": "\"'Hack', monospace\"",
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.fontVariations": false,
+    "vs-kubernetes": {
+        "vs-kubernetes.crd-code-completion": "enabled",
+        "vscode-kubernetes.minikube-path-linux": "/home/qbroyer/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "editor.fontSize": 15,
+    "chat.tools.terminal.autoApprove": {
+        "mkdir": true,
+        "molecule": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "todomd.defaultFile": "${workspaceFolder}/TODO.txt",
+    "todomd.addCreationDate": true,
+    "todomd.activatePattern": "**/{todo,someday,todo.archive}.txt",
+    "todomd.webview.showRecurringUpcoming": false,
+    "gitlab.duoChat.enabled": false,
+    "gitlab.duoCodeSuggestions.enabled": false,
+    "gitlab.duoAgentPlatform.enabled": false,
+    "gitlab.duo.enabledWithoutGitlabProject": false,
+    "gitlab.keybindingHints.enabled": false,
+    "gitlab.duoCodeSuggestions.openTabsContext": false,
+    "workbench.sideBar.location": "right",
+    "workbench.settings.applyToAllProfiles": [
+
+    ],
+    "mcpServers": {
+    "opentofu": {
+      "transport": "sse",
+      "endpoint": "https://mcp.opentofu.org/sse"
+    }
+},
+"chat.mcp.autostart": "never",
+"[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"workbench.iconTheme": "material-icon-theme"
+}
