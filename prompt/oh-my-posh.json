@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+    "git-foreground": "#193549",
+    "git": "#FFFB38",
+    "git-modified": "#FF9248",
+    "git-diverged": "#FF4500",
+    "git-ahead": "#803ef1",
+    "git-behind": "#803ef1",
+    "blue": "#497bf0",
+    "closer": "p:os",
+    "lavender": "#4c4ece",
+    "os": "#6b7ab3",
+    "pink": "#d421a4",
+    "red": "#FF0000"
+  },
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "{{ .Path }} ",
+          "foreground": "p:pink",
+          "type": "path",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " 🐍 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "foreground": "p:lavender",
+          "type": "python",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "{{ .Context }}{{ if .Namespace }} :: {{ .Namespace }}{{ end }} ",
+          "foreground": "p:red",
+          "type": "kubectl",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "branch_icon": "🌳 ",
+            "cache_duration": "none",
+            "cherry_pick_icon": "🍒 ",
+            "commit_icon": "💾 ",
+            "fetch_status": false,
+            "fetch_upstream_icon": false,
+            "merge_icon": "🌐 ",
+            "no_commits_icon": "📭 ",
+            "rebase_icon": "🔄 ",
+            "revert_icon": "↩️ ",
+            "tag_icon": "🏷️ "
+          },
+          "template": "{{ .HEAD }} ",
+          "foreground": "p:lavender",
+          "type": "git",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "{{ .WorkspaceName }}{{ if .Version }} {{ .Version }}{{ end }}",
+          "foreground": "p:lavender",
+          "type": "terraform",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": ">",
+          "foreground": "p:closer",
+          "type": "text",
+          "style": "plain"
+        }
+      ]
+    }
+  ],
+  "version": 3,
+  "final_space": true
+}
